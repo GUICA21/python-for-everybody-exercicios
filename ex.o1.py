@@ -24,3 +24,4 @@ rate = float(input("Enter Rate:"))
 total = hrs * rate
 print("Pay:", total)
 
+
