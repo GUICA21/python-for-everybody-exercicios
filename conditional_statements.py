@@ -32,3 +32,21 @@ else:
     print("Large.")
 print("Done.")
 
+# Código "Robusto" (com rede de segurança)
+
+numero_em_texto = input("Insira um número: ")
+
+try:
+    # --- A "Zona Perigosa" ---
+    # Tenta fazer a conversão
+    numero_em_int = int(numero_em_texto)
+    print(f"O dobro do seu número é {numero_em_int * 2}")
+    # --------------------------
+
+except:
+    # --- O "Plano B" ---
+    # Isto só executa se o 'try' falhar
+    print("Ups! Isso não parece ser um número. Tente de novo.")
+    # -------------------
+
+print("O programa continua...")
