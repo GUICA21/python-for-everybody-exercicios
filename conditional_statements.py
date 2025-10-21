@@ -22,3 +22,13 @@ else:
     print("Smaller")
 
 print("Done.")
+
+x = int(input("Enter a number: "))
+if x < 10:
+    print("Smaller.")
+elif x < 20:
+    print("Medium.")
+else:
+    print("Large.")
+print("Done.")
+
